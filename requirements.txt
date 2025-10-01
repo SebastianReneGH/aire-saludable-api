@@ -1,5 +1,20 @@
-fastapi
-uvicorn[standard]
-pandas
-pyarrow
-python-dotenv
+# Framework principal
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Base de datos
+SQLAlchemy==2.0.34
+psycopg2-binary==2.9.9
+
+# Utilidades
+python-dotenv==1.0.1
+requests==2.32.3
+pandas==2.2.3
+email-validator==2.2.0
+
+# Seguridad y envío de correos
+cryptography==43.0.1
+
+# Opcional (para evitar errores comunes en producción)
+pydantic==2.9.2
+pydantic-core==2.23.4
